@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: rgba(172, 213, 249, 0.863);
+}
+
+h1 {
+  padding-top: 1rem;
+}
+
+#ghib-cont {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin: 2rem 0rem;
+  gap: 1.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border: 0.5rem rgb(126, 128, 139) solid;
+  padding: 1rem 1rem;
+  width: 60%;
+  text-align: center;
+  line-height: 1.5;
+  background-color: rgba(255, 254, 229, 0.575);
+}
+
+img {
+  max-height: 85svh;
+}
+
+#hamb {
+  position: fixed;
+  z-index: 99;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+.hamburger-icon {
+  background-color: rgba(255, 254, 229, 0.575);
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%23747272' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 17h18M3 12h18M3 7h18'/%3E%3C/svg%3E");
+}
+
+.close-icon {
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z'/%3E%3Cpath fill='%23747272' d='m12 14.122l5.303 5.303a1.5 1.5 0 0 0 2.122-2.122L14.12 12l5.304-5.303a1.5 1.5 0 1 0-2.122-2.121L12 9.879L6.697 4.576a1.5 1.5 0 1 0-2.122 2.12L9.88 12l-5.304 5.304a1.5 1.5 0 1 0 2.122 2.12z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-200%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 97;
+  background: rgba(25, 24, 24, 0.829);
+  padding-top: 4rem;
+}
+
+#ul {
+  position: fixed;
+  z-index: 98;
+  top: 15%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+h3 {
+  text-decoration: underline;
+  padding-left: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+a {
+  color: rgb(239, 239, 239);
+}
+
+a:visited {
+  color: rgb(203, 194, 255);
+}
