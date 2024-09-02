@@ -28,6 +28,7 @@ h1 {
   align-items: center;
   gap: 1rem;
   border: 0.5rem rgb(126, 128, 139) solid;
+  border-radius: 5%;
   padding: 1rem 1rem;
   width: 60%;
   text-align: center;
@@ -37,6 +38,7 @@ h1 {
 
 img {
   max-height: 85svh;
+  border-radius: 1%;
 }
 
 #hamb {
@@ -50,6 +52,7 @@ img {
 
 .hamburger-icon {
   background-color: rgba(255, 254, 229, 0.575);
+  border-radius: 15%;
   display: inline-block;
   width: 3em;
   height: 3em;
@@ -59,6 +62,8 @@ img {
 }
 
 .close-icon {
+  background-color: rgba(255, 254, 229, 0.575);
+  border-radius: 15%;
   display: inline-block;
   width: 3em;
   height: 3em;
